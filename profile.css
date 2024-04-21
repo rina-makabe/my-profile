@@ -1,0 +1,68 @@
+/* Basic styling for the body and overall page layout */
+body {
+    font-family: 'Times New Roman', sans-serif;
+    margin: 20px;
+    background-color: #EEEEEE; /* Light grey background */
+    color: #041562; /* Dark blue for the main text */
+}
+
+/* Styling for the main header */
+header {
+    background-color: #FFFFFF; /* White background for the header */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Profile picture styling */
+img {
+    width: 150px;
+    height: auto;
+    border-radius: 75px; /* Circular profile picture */
+    border: 4px solid #11468F; /* Blue border for the profile picture */
+    margin-bottom: 10px;
+}
+
+/* Header elements styling */
+h1 {
+    color: #041562; /* Dark blue color for the main header */
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #11468F; /* Slightly lighter blue for secondary headers */
+    border-bottom: 2px solid #DA1212; /* Red underline for headers */
+    padding-bottom: 5px;
+}
+
+/* Link styling */
+a {
+    color: #DA1212; /* Red color for links to make them stand out */
+    text-decoration: none; /* No underline by default */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for better user interaction */
+}
+
+/* Section and footer styling for clarity and spacing */
+section, footer {
+    background-color: #FFFFFF; /* White background for sections and footer */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* List styling in the footer */
+footer ul {
+    list-style-type: none; /* No bullets for a cleaner look */
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer a {
+    font-weight: bold;
+}
